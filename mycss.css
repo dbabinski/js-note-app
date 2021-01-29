@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 1em;
+    background-color: #7bdaf3;
+
+
+}
+.container {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-end;
+    border-left: 1px solid #ffffff;
+    height: 100%;
+    padding-left: 3em;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.note {
+    background-color: #ffffff;
+    width: 200px;
+    height: 150px;
+    margin-top: 1em;
+    margin-left: 13em;
+
+} 
+.note .toolbar {
+    background-color: #438eff;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.note .bottombar {
+    display: flex;
+    justify-content: space-around;
+}
+.note .bottombar button {
+    font-size: 1.2rem;
+}
+button:focus {
+    outline: none!important;
+}
+
+button:hover {
+    color: #555;
+}
+
+button {
+    border-width: 0!important;
+    border-style: none!important;
+    background-color: transparent!important;
+}
+.note .main{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+.note textarea {
+    outline: 4px #438eff solid;
+    outline-offset: -4px;
+    border: none!important;
+    width: 100%;
+    height: 118px;
+    padding: 0.5em;
+}
+
+#main-addBtn  {
+    position: fixed;
+    
+    padding: 0.5em;
+    background-color: yellow!important;
+}
+
+.note .hidden {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
